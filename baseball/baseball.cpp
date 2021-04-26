@@ -17,8 +17,8 @@ int main(){
   for (int i=0; i<N; i++){
     fin >> cows[i];
   }
+  
   fin.close();
-
   sort(cows, cows + N);
 
   int answer = 0;
@@ -37,4 +37,5 @@ int main(){
   fout << answer;
   fout.close();
   return 0;
+  
 }
