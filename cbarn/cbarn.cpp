@@ -9,7 +9,6 @@ int n;
 int answer = 0;
 int temp = 0;
 
-
 vector<int> cows;
 vector<int> possible_answers;
 
@@ -33,7 +32,6 @@ int main(){
     }
   }
 
-
   //Find answer
   for(int i=0; i<n+1; i++){
     answer = 0;
@@ -54,6 +52,5 @@ int main(){
   }
 
   fout << possible_answers[idx];
-
   return 0;
 }
